@@ -1,0 +1,34 @@
+6DOF Stewart Platform Calculator (for linear actuators)
+
+Unzip the file c into a new directory, this will setup all the required files and subdirectories. It will not create anything outside these directories.
+
+Run the file "StewartPlatformCalculator.exe"
+
+The top half of the screen is the platform setup data and calcs arranged over 3 tabs - Machine data, Leg positions and Actuator loads.
+
+The bottom half of the screen is the visualiser and data arranged over 3 tabs - Joystick RK, Slider Rk and sequencer.
+
+On the left side half way down is a button "ShowVisualiser" that pops up a graphical display. It's controls are - left mouse = pan, right mouse = rotate, mouse wheel = zoom. Color coding is - red lines base, blue lines platform, green lines legs, white lines are base/platform joints J1-J2, mauve line is leg 1.
+
+
+Typical useage:
+
+Enter a project name in top left box, use save project and load project as required.
+
+Enter machine dimensions top left box, everything updates automatically as data is entered. Check the "Optimum platform Z rest height" box, this is the calculated best rest/home position, if ok click the "Make default" button and everything updates around that new setting.
+
+Review the "Single axis ranges from rest posn" box - this shows how far the platform can move in a single axis. If you wish you can click the "Copy to action ranges" button and it will copy these setting to the visualiser on the lower half of the screen.
+
+Click the "Actuator loads" tab on the bottom edge of the top screen then enter your actuator information, again all date updates as you enter new settings.
+
+Enter your prefered axis ranges into the "Action ranges from rest posn" box lower left screen (or copy from calculated ranges as above).
+
+Use one of the visualiser options, Joystick RK, Slider Rk or sequencer to move the model about, click the "ShowVisualiser" to see it.
+
+As you move the model all the data boxes will update with current info, generally those concerning leg length will be green if leg is within operating range, red if outside.
+
+Click the "Print parameters" button to get a hard copy - remember to click "Save Project" button to save your settings !
+
+
+Happy playtime !
+ 
